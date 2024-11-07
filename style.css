@@ -1,7 +1,27 @@
-.cabeçalho{
+*{margin: 0;
+padding: 0;
+}
+
+.body{
     background-color: #222222;
 }
 
+.cabeçalho{
+    background-color: black;
+    display: flex;
+    color: white;
+}
+
 .apresentação-produtos{
-    align-items: center;
+    text-align: center;
+
+}
+
+.ex{
+    width:80% ;
+    margin: 70px;
+}
+
+.logo{
+    width: 12%
 }
