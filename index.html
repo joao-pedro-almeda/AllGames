@@ -9,11 +9,117 @@
 <body class="body">
     <header class="cabeçalho">
         <img class="logo" src="img/logo.png" alt="">
-        <h1>allgames</h1>
 
     </header>
 <div class="apresentação-produtos">
-      <img class="ex" src="img/PRODUTO1.jpg" alt="">
+    <div class="botoes">
+        <button class="botao" onclick="drama()">Drama</button>
+        <button class="botao" onclick="realities()">Realities</button>
+        <button class="botao" onclick="Ação()">Ação</button>
+        <button class="botao" onclick="comedia()">Comédia</button>
+        <button class="botao" onclick="policial()">Policial</button>
+        <button class="botao" onclick="filmes()">Filmes</button>
+        </div>
+        
+        <img id="image" src="drama.png" alt="">
+          
+        <script>
+            var x =0;
+            var img = document.getElementById('image')
+            function drama(){
+                if (x==0) 
+            {
+            img.src='drama.png';
+            x=1;
+            }
+            else
+            {
+            img.src='drama.png';
+            x=0;
+            }
+            }
+        </script>
+        <script>
+                var x =0;
+            var img = document.getElementById('image')
+            function realities(){
+                if (x==0) 
+            {
+            img.src='realities.png';
+            x=1;
+            }
+            else
+            {
+            img.src='realities.png';
+            x=0;
+            }
+            }
+        </script>
+        <script>
+                var x =0;
+            var img = document.getElementById('image')
+            function Ação(){
+                if (x==0) 
+            {
+            img.src='ação.png';
+            x=1;
+            }
+            else
+            {
+            img.src='ação.png';
+            x=0;
+            }
+            }
+        </script>
+        <script>
+                var x =0;
+            var img = document.getElementById('image')
+            function comedia(){
+                if (x==0) 
+            {
+            img.src='comedia.png';
+            x=1;
+            }
+            else
+            {
+            img.src='comedia.png';
+            x=0;
+            }
+            }
+        </script>
+        <script>
+                var x =0;
+            var img = document.getElementById('image')
+            function policial(){
+                if (x==0) 
+            {
+            img.src='policia.png';
+            x=1;
+            }
+            else
+            {
+            img.src='policia.png';
+            x=0;
+            }
+            }
+        </script>
+        <script>
+                var x =0;
+            var img = document.getElementById('image')
+            function filmes(){
+                if (x==0) 
+            {
+            img.src='filmes.png';
+            x=1;
+            }
+            else
+            {
+            img.src='filmes.png';
+            x=0;
+            }
+            }
+        </script>
+        </div>
     </div>
 
 

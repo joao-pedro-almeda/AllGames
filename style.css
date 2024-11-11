@@ -3,13 +3,14 @@ padding: 0;
 }
 
 .body{
-    background-color: #222222;
+    background-color: #222;
 }
 
 .cabeçalho{
-    background-color: black;
+    background-color: #222;
     display: flex;
     color: white;
+    border: solid white 3px;
 }
 
 .apresentação-produtos{
@@ -18,10 +19,18 @@ padding: 0;
 }
 
 .ex{
-    width:80% ;
+    width:70% ;
     margin: 70px;
 }
 
 .logo{
-    width: 12%
+    width: 20%
 }
+
+.botao {
+    background-color: #060022;
+    color: white;
+    margin: 10px 24px;
+    font-size: 100%;
+    border: none;
+    cursor: pointer;}
