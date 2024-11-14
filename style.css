@@ -7,15 +7,48 @@ padding: 0;
 }
 
 .cabeçalho{
-    background-color: #222;
+    background-color: #000000;
     display: flex;
     color: white;
     border: solid white 3px;
+    justify-content: space-between;
 }
 
 .logo{
     width: 20%
 }
+
+#divBusca{
+    background-color: #222;
+    border:solid 1px;
+    border-radius:15px;
+    width:500px;
+    margin: 50px;
+    color: white;
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:500px;
+    color: white;
+  }
+
+.carrinho{
+    width: 7%;
+}
+
+
+
+
+
+
+
+
 
 .jogos1{
     text-align: center;
