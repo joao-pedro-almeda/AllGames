@@ -4,136 +4,108 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AllGames</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="javascript.js">
 </head>
-<body class="body">
+<body class="tudo">
     <header class="cabeçalho">
+        <button class="btn-toggle" id="toggle-btn">&#9776; Menu</button>
+        <div class="sidebar" id="sidebar">
+          <ul class="nav-links">
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Jogos</a></li>
+            <li><a href="#">Destaques</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Loja</a></li>
+          </ul>
+        </div>
+        <div class="logo">
         <img class="logo" src="img/logo.png" alt="">
-         
-        <div id="divBusca">
-            <input type="text" id="txtBusca" placeholder="Buscar"/>
-          </div>
-
-          <img class="carrinho" src="img/carrinho.png" alt="">
-
+        </div>
+        <div id="Busca">
+        <input type="text" id="texto-Busca" placeholder="Buscar"/>
+        </div>
+        <div class="perfils">
+        <a href="file:///C:/Users/Jo%C3%A3o%20Pedro/Downloads/escola/empresa-main/login/index.html?username=joaopedrodruszkoski11%40gmail.com&password=88380963j"><img class="perfil" src="img/perfil.png" alt=""></a>
+        <img class="carrinho" src="img/carrinho.png" alt="">
+        </div>
     </header>
-<div class="apresentação-produtos">
-    <div class="botoes">
-        <button class="botao" onclick="drama()">Ação</button>
-        <button class="botao" onclick="realities()">RPG</button>
-        <button class="botao" onclick="Ação()">Terror</button>
-        <button class="botao" onclick="comedia()">Corrida</button>
-        <button class="botao" onclick="policial()">Esportes</button>
-        <button class="botao" onclick="filmes()">FPS</button>
-        </div>
-        <div class="jogos1">
-        <img id="image" src="img/red.png" alt="">
+
+    <h1 class="destaques">Destaques</h1>
+
+    <div class="apresentação-produtos">
+    <div class="carousel-container">
+        <div class="carousel">
+         
+          <div class="slide">
+            <img class="imagens" src="img/red.png" alt="Slide 1">
+          </div>
           
-        <script>
-            var x =0;
-            var img = document.getElementById('image')
-            function drama(){
-                if (x==0) 
-            {
-            img.src='img/red.png';
-            x=1;
-            }
-            else
-            {
-            img.src='img/red.png';
-            x=0;
-            }
-            }
-        </script>
-        <script>
-                var x =0;
-            var img = document.getElementById('image')
-            function realities(){
-                if (x==0) 
-            {
-            img.src='img/elden.jpg';
-            x=1;
-            }
-            else
-            {
-            img.src='img/elden.jpg';
-            x=0;
-            }
-            }
-        </script>
-        <script>
-                var x =0;
-            var img = document.getElementById('image')
-            function Ação(){
-                if (x==0) 
-            {
-            img.src='img/outlast.webp';
-            x=1;
-            }
-            else
-            {
-            img.src='img/outlast.webp';
-            x=0;
-            }
-            }
-        </script>
-        <script>
-                var x =0;
-            var img = document.getElementById('image')
-            function comedia(){
-                if (x==0) 
-            {
-            img.src='img/forza.jpeg';
-            x=1;
-            }
-            else
-            {
-            img.src='img/forza.jpeg';
-            x=0;
-            }
-            }
-        </script>
-        <script>
-                var x =0;
-            var img = document.getElementById('image')
-            function policial(){
-                if (x==0) 
-            {
-            img.src='img/fifa.avif';
-            x=1;
-            }
-            else
-            {
-            img.src='img/fifa.avif';
-            x=0;
-            }
-            }
-        </script>
-        <script>
-                var x =0;
-            var img = document.getElementById('image')
-            function filmes(){
-                if (x==0) 
-            {
-            img.src='img/call.jpeg';
-            x=1;
-            }
-            else
-            {
-            img.src='img/call.jpeg';
-            x=0;
-            }
-            }
-        </script>
+          <div class="slide">
+            <img class="imagens" src="img/elden.jpg" alt="Slide 2">
+          </div>
+          
+          <div class="slide">
+            <img class="imagens" src="img/forza.jpeg" alt="Slide 3">
+          </div>
+         
+          <div class="slide">
+            <img class="imagens" src="img/fifa.jpg" alt="Slide 4">
+          </div>
+          
+          <div class="slide">
+            <img class="imagens" src="img/call.jpeg" alt="Slide 5">
+          </div>
+          
+          <div class="slide">
+            <img class="imagens" src="img/re4.jpg" alt="Slide 6">
+          </div>
+          
+          <div class="slide">
+            <img class="imagens" src="img/sekiro-shadows-die-twice-edicao-jogo-do-ano-ps4-digital-5af78f8e.png" alt="Slide 7">
+          </div>
+          
+          <div class="slide">
+            <img class="imagens" src="img/Black-Myth-Wukong.jpg" alt="Slide 8">
+          </div>
         </div>
-        </div>
-    </div>
+     
+    
+      <script src="javascript.js"></script>
+    </div> 
+</div>
 
 
-
-
-
+<section class="jogos">
+<h2 class="titulo-jogos">Jogos</h2>
+<h3 class="ação">AÇÃO</h3>
+<div class="jogos1">
+    <img class="tamanho-jogos" src="img/gta.png" alt="">
+    <img class="rust" src="img/rust.png" alt="">
+    <img class="tamanho-jogos" src="img/sea of thives.png" alt="">
+    <img class="tamanho-jogos" src="img/dayz.png" alt="">
+    <img class="tamanho-jogos" src="img/assasin.png" alt="">
+    <img class="tamanho-jogos" src="img/spider man.png" alt="">
+</div>
+<h3 class="ação">RPG</h3>
+<div class="jogos1">
+    <img class="tamanho-jogos" src="img/sekiro.png" alt="">
+    <img class="rust" src="img/elden ring.png" alt="">
+    <img class="tamanho-jogos" src="img/wukong.png" alt="">
+    <img class="tamanho-jogos" src="img/darkshouls.png" alt="">
+    <img class="tamanho-jogos" src="img/god.png" alt="">
+    <img class="tamanho-jogos" src="img/hollow.png" alt="">
+</div>
+<h3 class="ação">FPS</h3>
+<div class="jogos1">
+    <img class="tamanho-jogos" src="img/cs.png" alt="">
+    <img class="rust" src="img/fortnite.png" alt="">
+    <img class="tamanho-jogos" src="img/pubg.png" alt="">
+    <img class="tamanho-jogos" src="img/valorant.png" alt="">
+    <img class="tamanho-jogos" src="img/call of duty.png" alt="">
+    <img class="tamanho-jogos" src="img/r6.png" alt="">
+</div>
+</section>
 
 
 
