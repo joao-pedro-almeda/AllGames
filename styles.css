@@ -202,3 +202,34 @@ align-items: center;
   border-radius: 10px;
 }
 
+.mais-opções{
+  color: white;
+  font-size: 200%;
+  text-align: center;
+}
+
+.botoes-meio{
+  display: flex;
+  justify-content: center;
+
+}
+
+.meio{
+  background-color: #ff0000;
+  color: white;
+  border: solid 2px white;
+  border-radius: 5px;
+  margin: 30px 10px;
+  font-size: 150%;
+  padding: 30px 40px;
+}
+
+
+
+
+
+
+
+.rodape{
+  background-color: black;
+}

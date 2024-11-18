@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Carrinho de Compras</h1>
+        </header>
+        
+        <div class="cart-items">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Produto</th>
+                        <th>Preço</th>
+                        <th>Quantidade</th>
+                        <th>Total</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody id="cart-items-list">
+                    <!-- Itens do carrinho serão inseridos aqui dinamicamente -->
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="cart-summary">
+            <p><strong>Total: R$ <span id="total-price">0,00</span></strong></p>
+            <button id="checkout-button">Finalizar Compra</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
