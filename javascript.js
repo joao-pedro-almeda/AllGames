@@ -27,5 +27,5 @@ function goToNextSlide() {
 }
 
 
-setInterval(goToNextSlide, 3000); 
+setInterval(goToNextSlide, 5000); 
 

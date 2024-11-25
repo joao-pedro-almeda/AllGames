@@ -144,7 +144,7 @@ font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 200%;
     color: white;
-    padding: 40px;
+    margin: 40px;
     font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -173,10 +173,12 @@ align-items: center;
 .tamanho-jogos{
     width: 15%;
     cursor: pointer;
+    border: #fff solid 2px;
 }
 .rust{
     width: 15%;
     cursor: pointer;
+    border: #fff solid 2px;
 }
 
 .carousel-container {
