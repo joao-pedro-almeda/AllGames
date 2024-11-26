@@ -24,7 +24,7 @@ box-sizing: border-box;
     background-color: transparent;
     border:solid 1px;
     border-radius:15px;
-    width:500px;
+    width:600px;
     margin: 50px;
     color: white;
   }
@@ -36,7 +36,7 @@ box-sizing: border-box;
     font-size:18px;
     border:none;
     height:32px;
-    width:500px;
+    width:600px;
     color: white;
   }
 
@@ -105,13 +105,14 @@ box-sizing: border-box;
 }
 
 .perfil{
-width: 10%;
-margin: 0px 54px;
-}
-
-.perfils{
-    cursor: pointer;
-}
+  width: 10%;
+  margin: 0px 54px;
+  }
+  
+  .perfils{
+      cursor: pointer;
+      right: 500px;
+  }
 
 .destaques{
     color: white;
