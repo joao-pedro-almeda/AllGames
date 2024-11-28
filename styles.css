@@ -1,0 +1,274 @@
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+  
+  .tudo{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+      background-image: url(img/fundo.avif);
+  }
+
+.cabeçalho{
+  background-color: #000000;
+  display: flex;
+  color: white;
+  text-align: center;
+  border: solid 3px white;
+  align-items: center;
+  
+}
+
+.logo{
+  width: 40%;
+}
+
+#Busca{
+  background-color: transparent;
+  border:solid 1px;
+  border-radius:15px;
+  width:600px;
+  margin: 50px;
+  color: white;
+  
+}
+
+#texto-Busca{
+  float:left;
+  background-color:transparent;
+  padding-left:5px;
+  font-size:18px;
+  border:none;
+  height:32px;
+  width:600px;
+  color: white;
+}
+
+
+
+.btn-toggle {
+  position: absolute;
+  top: 30px;
+  left: 7px;
+  font-size: 30px;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  padding: 15px;
+  cursor: pointer;
+  z-index: 1000;
+  border-radius: 5px;
+
+}
+
+.btn-toggle:hover {
+  background-color: transparent;
+}
+
+.sidebar {
+  width: 0;
+  height: 100vh;
+  background-color: #000000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 80px;
+  z-index: 999;
+}
+
+.carrinho{
+  width: 10%;
+  margin: 0px 50px;
+}
+
+.perfil{
+width: 10%;
+
+}
+
+.perfils{
+  cursor: pointer;
+
+}
+
+.botoes{
+  text-align: center;
+  margin: 40px;
+}
+
+.botao{
+background-color: white;
+color: white;
+margin: 5px 24px;
+padding: 10px 50px;
+font-size: 130%;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo{
+color: #fff;
+font-size: 400%;
+text-align: center;
+margin: 54px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.imagem{
+width: 100%;
+height: 35%;
+
+border: #fff 3px solid;
+}
+
+.video{
+margin: 0px 100px;
+display: flex;
+}
+
+.valor{
+color: #fff;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 200%;
+margin: 10px;
+text-align: center;
+}
+
+.botaos{
+background-color: #ff0000;
+font-size: 170%;
+align-items: center;
+text-align: center;
+color: #fff;
+border-radius: 10px;
+margin: 20px 0px;
+padding: 10px;
+font-family: Arial, Helvetica, sans-serif;
+border: #fff 3px solid;
+}
+
+.destaques{
+  background-color: #ff0000;
+  text-align: center;
+  border-radius: 13px;
+  margin: 50px 800px;
+  font-size: 200%;
+}
+
+.titulo-jogos{
+    text-align: center;
+    font-size: 200%;
+    color: white;
+    margin: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.apresentação-produtos{
+  text-align: center;
+  align-items: center;
+}
+
+.jogos{ 
+margin: 50px;
+color: white;
+font-size: 150%;
+align-items: center;
+
+}
+.ação{ margin: 10px 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.jogos1{
+    text-align: center;
+}
+
+.tamanho-jogos{
+    width: 15%;
+    cursor: pointer;
+    border: #fff solid 2px;
+}
+.rust{
+    width: 15%;
+    cursor: pointer;
+    border: #fff solid 2px;
+}
+
+.carousel-container {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  
+}
+
+.carousel {
+  display: flex;
+  width: 800%; 
+  transition: transform 1s ease;
+}
+
+.slide {
+  min-width: 12.5%; 
+  transition: opacity 1s ease-in-out;
+}
+
+.imagens{
+  border: #fff 3px solid;
+}
+
+.imagem{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.mais-opções{
+  color: white;
+  font-size: 200%;
+  text-align: center;
+}
+
+.botoes-meio{
+  display: flex;
+  justify-content: center;
+
+}
+
+.meio{
+  background-color: #ff0000;
+  color: white;
+  border: solid 2px white;
+  border-radius: 5px;
+  margin: 30px 10px;
+  font-size: 150%;
+  padding: 30px 40px;
+  cursor: pointer;
+}
+
+.rodape{
+  background-color: #000000;
+  color: #ffffff;
+  border: #fff solid 3px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.email{text-align: center;
+margin: 0px 600px;}
+
+.logo-rodape{
+  width: 15%;
+}
+
+.instagram{
+  width: 17%;
+}
+
+.twitter{
+  width: 40%;
+}
